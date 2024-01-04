@@ -1,0 +1,15 @@
+{
+  "fields": [],
+  "model": {
+    "localization": false,
+    "type": "JSON",
+    "name": "123123",
+    "modelId": "123123",
+    "createdBy": "community"
+  },
+  "categories": [
+    "Informational",
+    "Event",
+    "Website"
+  ]
+}
