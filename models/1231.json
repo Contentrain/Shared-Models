@@ -1,0 +1,88 @@
+{
+  "fields": [
+    {
+      "componentId": "date",
+      "fieldId": "createdAt",
+      "modelId": "desciptons",
+      "name": "createdAt",
+      "options": {},
+      "validations": {
+        "required-field": {
+          "value": true
+        }
+      },
+      "fieldType": "date"
+    },
+    {
+      "componentId": "date",
+      "fieldId": "updatedAt",
+      "modelId": "desciptons",
+      "name": "updatedAt",
+      "options": {},
+      "validations": {
+        "required-field": {
+          "value": true
+        }
+      },
+      "fieldType": "date"
+    },
+    {
+      "componentId": "single-line-text",
+      "fieldId": "ID",
+      "modelId": "desciptons",
+      "name": "ID",
+      "options": {},
+      "validations": {
+        "required-field": {
+          "value": true
+        }
+      },
+      "fieldType": "string"
+    },
+    {
+      "componentId": "single-line-text",
+      "fieldId": "status",
+      "modelId": "desciptons",
+      "name": "status",
+      "options": {},
+      "validations": {
+        "required-field": {
+          "value": true
+        }
+      },
+      "fieldType": "string"
+    },
+    {
+      "componentId": "single-line-text",
+      "fieldId": "yazilar",
+      "modelId": "desciptons",
+      "name": "title",
+      "options": {},
+      "validations": {},
+      "fieldType": "string"
+    },
+    {
+      "componentId": "rich-text-editor",
+      "fieldId": "aaa",
+      "modelId": "desciptons",
+      "name": "description",
+      "options": {},
+      "validations": {},
+      "fieldType": "string"
+    }
+  ],
+  "model": {
+    "localization": true,
+    "type": "JSON",
+    "name": "Desciptons",
+    "modelId": "desciptons",
+    "createdBy": "community",
+    "isServerless": false
+  },
+  "name": "1231",
+  "categories": [
+    "Magazine",
+    "Event"
+  ],
+  "description": "22"
+}
