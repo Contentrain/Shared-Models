@@ -1,0 +1,78 @@
+{
+  "fields": [
+    {
+      "componentId": "date",
+      "fieldId": "createdAt",
+      "modelId": "superbirmodel",
+      "name": "createdAt",
+      "options": {},
+      "validations": {
+        "required-field": {
+          "value": true
+        }
+      },
+      "fieldType": "date"
+    },
+    {
+      "componentId": "single-line-text",
+      "fieldId": "ID",
+      "modelId": "superbirmodel",
+      "name": "ID",
+      "options": {},
+      "validations": {
+        "required-field": {
+          "value": true
+        }
+      },
+      "fieldType": "string"
+    },
+    {
+      "componentId": "single-line-text",
+      "fieldId": "muthusbirfield",
+      "modelId": "superbirmodel",
+      "name": "muthusbirfield",
+      "options": {},
+      "validations": {},
+      "fieldType": "string"
+    },
+    {
+      "componentId": "date",
+      "fieldId": "updatedAt",
+      "modelId": "superbirmodel",
+      "name": "updatedAt",
+      "options": {},
+      "validations": {
+        "required-field": {
+          "value": true
+        }
+      },
+      "fieldType": "date"
+    },
+    {
+      "componentId": "single-line-text",
+      "fieldId": "status",
+      "modelId": "superbirmodel",
+      "name": "status",
+      "options": {},
+      "validations": {
+        "required-field": {
+          "value": true
+        }
+      },
+      "fieldType": "string"
+    }
+  ],
+  "model": {
+    "localization": false,
+    "type": "JSON",
+    "name": "superbirmodel",
+    "modelId": "superbirmodel",
+    "createdBy": "community",
+    "isServerless": false
+  },
+  "name": "coksampiyonmodel",
+  "categories": [
+    "Personal"
+  ],
+  "description": "dddd"
+}
