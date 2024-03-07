@@ -1,0 +1,69 @@
+{
+  "fields": [
+    {
+      "componentId": "date",
+      "fieldId": "createdAt",
+      "modelId": "json-model",
+      "name": "createdAt",
+      "options": {},
+      "validations": {
+        "required-field": {
+          "value": true
+        }
+      },
+      "fieldType": "date"
+    },
+    {
+      "componentId": "date",
+      "fieldId": "updatedAt",
+      "modelId": "json-model",
+      "name": "updatedAt",
+      "options": {},
+      "validations": {
+        "required-field": {
+          "value": true
+        }
+      },
+      "fieldType": "date"
+    },
+    {
+      "componentId": "single-line-text",
+      "fieldId": "ID",
+      "modelId": "json-model",
+      "name": "ID",
+      "options": {},
+      "validations": {
+        "required-field": {
+          "value": true
+        }
+      },
+      "fieldType": "string"
+    },
+    {
+      "componentId": "single-line-text",
+      "fieldId": "status",
+      "modelId": "json-model",
+      "name": "status",
+      "options": {},
+      "validations": {
+        "required-field": {
+          "value": true
+        }
+      },
+      "fieldType": "string"
+    }
+  ],
+  "model": {
+    "localization": false,
+    "type": "JSON",
+    "name": "json-model",
+    "modelId": "json-model",
+    "createdBy": "community",
+    "isServerless": false
+  },
+  "name": "my-community-model",
+  "categories": [
+    "Informational"
+  ],
+  "description": "This is helpful for the community."
+}
