@@ -1,0 +1,95 @@
+{
+  "fields": [
+    {
+      "componentId": "slug",
+      "fieldId": "slug",
+      "modelId": "markdown-model",
+      "name": "slug",
+      "options": {},
+      "validations": {
+        "required-field": {
+          "value": true
+        }
+      },
+      "fieldType": "string"
+    },
+    {
+      "componentId": "md-editor",
+      "fieldId": "content",
+      "modelId": "markdown-model",
+      "name": "content",
+      "options": {},
+      "validations": {
+        "required-field": {
+          "value": true
+        }
+      },
+      "fieldType": "string"
+    },
+    {
+      "componentId": "date",
+      "fieldId": "createdAt",
+      "modelId": "markdown-model",
+      "name": "createdAt",
+      "options": {},
+      "validations": {
+        "required-field": {
+          "value": true
+        }
+      },
+      "fieldType": "date"
+    },
+    {
+      "componentId": "date",
+      "fieldId": "updatedAt",
+      "modelId": "markdown-model",
+      "name": "updatedAt",
+      "options": {},
+      "validations": {
+        "required-field": {
+          "value": true
+        }
+      },
+      "fieldType": "date"
+    },
+    {
+      "componentId": "single-line-text",
+      "fieldId": "ID",
+      "modelId": "markdown-model",
+      "name": "ID",
+      "options": {},
+      "validations": {
+        "required-field": {
+          "value": true
+        }
+      },
+      "fieldType": "string"
+    },
+    {
+      "componentId": "single-line-text",
+      "fieldId": "status",
+      "modelId": "markdown-model",
+      "name": "status",
+      "options": {},
+      "validations": {
+        "required-field": {
+          "value": true
+        }
+      },
+      "fieldType": "string"
+    }
+  ],
+  "model": {
+    "localization": false,
+    "type": "MD",
+    "name": "markdown-model",
+    "modelId": "markdown-model",
+    "createdBy": "community",
+    "isServerless": false
+  },
+  "name": "md-model",
+  "categories": [
+    "Generic"
+  ],
+  "description": "This is a Markdown model."
+}
